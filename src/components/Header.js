@@ -1,12 +1,22 @@
-import { Link } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+
+const getActiveLinkStyle = ({ isActive }) => ({
+  color: isActive ? 'orange' : 'white',
+});
 
 export default function Header() {
   return (
     <header>
       <nav>
-        <Link to="/">Home</Link>
-        <Link to="/about">About</Link>
-        <Link to="/contact">Contact</Link>
+        <NavLink to="/" style={getActiveLinkStyle}>
+          Home
+        </NavLink>
+        <NavLink to="/about" style={getActiveLinkStyle}>
+          About
+        </NavLink>
+        <NavLink to="/contact" style={getActiveLinkStyle}>
+          Contact
+        </NavLink>
       </nav>
     </header>
   );
