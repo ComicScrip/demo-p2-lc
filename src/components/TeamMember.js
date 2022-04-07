@@ -4,8 +4,8 @@ export default function TeamMember() {
   return (
     <div className={styles.card}>
       <p className={styles.name}>Pierre</p>
-      <a href="https://github.com/ComicScrip" target="_blank" rel="noreferrer">
-        <img className={styles.avatar} src={`https://github.com/ComicScrip.png`} alt="Pierre" />
+      <a href="https://github.com/ComicScrip" rel="noreferrer">
+        <img className={styles.avatar} src={`https://github.com/ComicScrip.png`}  />
       </a>
 
       <p className={styles.bio}>Bio Pierre</p>
