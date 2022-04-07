@@ -1,0 +1,9 @@
+.title {
+    text-align: center;
+  }
+  
+  .memberList {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
