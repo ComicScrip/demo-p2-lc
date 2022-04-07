@@ -7,7 +7,7 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          TEST DE PUSH SUR MAIN
+          TEST DE PUSH SUR NOUVELLE BRANCHE
         </p>
         <a
           className="App-link"
