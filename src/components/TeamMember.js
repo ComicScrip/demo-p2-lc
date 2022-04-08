@@ -1,19 +1,15 @@
 import styles from './TeamMember.module.css';
 
-export default function TeamMember() {
+export default function TeamMember({ name, avatarUrl, bio, githubUrl }) {
   return (
     <div className={styles.card}>
-      <p className={styles.name}>Pierre</p>
+      <p className={styles.name}>{name}</p>
 
-      <a href="https://github.com/ComicScrip" rel="noreferrer">
-        <img
-          className={styles.avatar}
-          src={'https://github.com/ComicScrip.png'}
-          alt="pierre"
-        />
+      <a href={githubUrl} target="_blank" rel="noreferrer">
+        <img className={styles.avatar} src={avatarUrl} alt={name} />
       </a>
 
-      <p className={styles.bio}>Bio Pierre</p>
+      <p className={styles.bio}>{bio}</p>
     </div>
   );
 }
