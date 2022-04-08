@@ -28,6 +28,7 @@
     "jsx-a11y/no-static-element-interactions": "off",
     "comma-dangle": "off",
     "import/order": "off",
-    "react/jsx-curly-brace-presence": "off"
+    "react/jsx-curly-brace-presence": "off",
+    "object-curly-newline": "off"
   }
 }
