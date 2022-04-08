@@ -7,3 +7,9 @@
 
   justify-content: center;
 }
+
+@media screen and (max-width: 600px) {
+  .memberList {
+    flex-direction: column;
+  }
+}
