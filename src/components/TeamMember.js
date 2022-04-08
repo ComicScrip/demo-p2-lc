@@ -8,7 +8,8 @@ export default function TeamMember() {
       <a href="https://github.com/ComicScrip" rel="noreferrer">
         <img
           className={styles.avatar}
-          src={`https://github.com/ComicScrip.png`}
+          src={'https://github.com/ComicScrip.png'}
+          alt="pierre"
         />
       </a>
 

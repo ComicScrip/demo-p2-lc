@@ -6,19 +6,14 @@ export default function AboutPage() {
     <div>
       <h1 className={styles.title}>Notre équipe</h1>
       <div className={styles.memberList}>
-        <TeamMember/>
-      
+        <TeamMember />
       </div>
     </div>
   );
 }
 
-
-
-
-
-
-/*INFO POUR LES MEMBRES 
+/*
+INFO POUR LES MEMBRES
         name="Pierre"
         bio={'Bio Pierre'}
         githubLink="https://github.com/ComicScrip"
